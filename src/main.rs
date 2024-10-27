@@ -7,6 +7,7 @@ use day_5::Day5;
 use day_6::Day6;
 use day_7::Day7;
 use day_8::Day8;
+use day_9::Day9;
 
 pub mod day_1;
 pub mod day_2;
@@ -16,6 +17,7 @@ pub mod day_5;
 pub mod day_6;
 pub mod day_7;
 pub mod day_8;
+pub mod day_9;
 
 fn main() {
     // let day1_part1_result = Day1::part1();
@@ -36,7 +38,7 @@ fn main() {
 
     // let day5 = Day5::new();
     // let result = Day7::part2();
-    let result = Day8::part2();
+    let result = Day9::part2();
 
     println!("{:?}", result);
 }
